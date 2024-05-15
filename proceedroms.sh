@@ -8,8 +8,6 @@ for o2_rom in ./Roms2k/*.bin; do
 	# ./O2_rom_to_bitmap $o2_rom ./Roms.bitmap/$o2_name.c
 done
 
-exit
-
 for o2_rom in ./Roms4k/*.bin; do
 	o2_filename=$(basename $o2_rom)
 	o2_name=$(echo $filename | sed "s/.bin//")
